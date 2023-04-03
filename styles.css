@@ -1,0 +1,28 @@
+
+.home-content {
+    height: 550px;
+}
+
+.home-content h1 {
+    color: white;
+    font-size: 3.125rem;
+    font-weight: bold;
+    padding-left: 54px;
+}
+
+.home-content p {
+    font-size: 18px;
+}
+
+.footer-custom ul li {
+    list-style: none;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.netflix-content:hover{
+     transform: translateY(-6px);
+     cursor: pointer;
+}
