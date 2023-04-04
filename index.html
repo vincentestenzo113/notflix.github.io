@@ -26,7 +26,7 @@
                 <p class="fw-bold">Ready to watch? Enter your email to create a Notflex account or login using existing account.</p>
                 <div class="input-group mb-3">
                     <input id="channel" type="text" class="form-control p-3" placeholder="Email address" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    <span onclick="welcomeChannel()" class="button input-group-text bg-danger text-white fw-bold ps-2 pe-2" id="basic-addon2">Get started ></span>
+                    <span onclick="welcomeChannel()" class="button input-group-text bg-danger text-white fw-bold ps-2 pe-2" id="basic-addon2">Get started !</span>
                   </div>
             </div>
         </div>
@@ -84,7 +84,7 @@
             <div class="col-sm-3">
                 <div class="footer-section">
                     <ul>
-                        <li> FAQ</li>
+                        <li>FAQ</li>
                         <li>Notflex on mobile</li>
                         <li>Privacy</li>
                         <li>Blog</li>
@@ -94,7 +94,7 @@
             <div class="col-sm-3">
                 <div class="footer-section">
                     <ul>
-                        <li> Account</li>
+                        <li>Account</li>
                         <li>Ways To Watch</li>
                         <li>Only on Notflex</li>
                         <li>Contact Us </li>
@@ -111,7 +111,7 @@
             function welcomeChannel(){
                 let channel=document.getElementById("channel")
                 if(channel.value===""){
-                    alert("Enter Your Username or Email Address")
+                    alert("Please enter a valid email address.")
                 }else{
                     alert("Welcome " +channel.value)
                     channel.value=""
